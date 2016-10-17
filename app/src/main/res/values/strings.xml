@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HelloAndroidWorld</string>
+    <string name="hello">Hello, AndroidWorld</string>
+    <string name="helloPL">Witaj, swiecie!</string>
+    <string name="helloUK">Привіт, Світ!</string>
+</resources>
