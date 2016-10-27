@@ -15,11 +15,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView textView = (TextView) findViewById(R.id.tv);
+<<<<<<< HEAD
         LinearLayout linear1, linear2,linear3;
 
         linear1 = (LinearLayout) findViewById(R.id.linear1);
         linear2 = (LinearLayout) findViewById(R.id.linear2);
         linear3 = (LinearLayout) findViewById(R.id.Linear3);
+=======
+        LinearLayout linear1, linear2;
+
+        linear1 = (LinearLayout) findViewById(R.id.linear1);
+        linear2 = (LinearLayout) findViewById(R.id.linear2);
+>>>>>>> 2c446fa33c182525d5765ab90b7590b0404e40d4
 
         String lang = getResources().getConfiguration().locale.getLanguage();
 
@@ -37,12 +44,15 @@ public class MainActivity extends AppCompatActivity {
             case "en":
                 textView.setText(R.string.hello);
                 break;
+<<<<<<< HEAD
             case "fr":
                 textView.setText(R.string.helloFR);
                 linear1.setBackgroundColor(getResources().getColor(R.color.frup));
                 linear2.setBackgroundColor(getResources().getColor(R.color.frdown));
                 linear3.setBackgroundColor(getResources().getColor(R.color.frmidl));
                 break;
+=======
+>>>>>>> 2c446fa33c182525d5765ab90b7590b0404e40d4
         }
 
         Toast.makeText(MainActivity.this, "onCreate", Toast.LENGTH_SHORT).show();

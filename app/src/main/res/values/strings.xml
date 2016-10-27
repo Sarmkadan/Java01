@@ -3,5 +3,8 @@
     <string name="hello">Hello, AndroidWorld</string>
     <string name="helloPL">Witaj, swiecie!</string>
     <string name="helloUK">Привіт, Світ!</string>
+<<<<<<< HEAD
     <string name="helloFR">Bonjour tout le monde</string>
+=======
+>>>>>>> 2c446fa33c182525d5765ab90b7590b0404e40d4
 </resources>

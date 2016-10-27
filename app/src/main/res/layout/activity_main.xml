@@ -5,7 +5,11 @@
     android:layout_height="match_parent"
     android:background="@color/screen_bkg_color"
     tools:context="com.example.helloandroidworld.MainActivity"
+<<<<<<< HEAD
     android:orientation="horizontal">
+=======
+    android:orientation="vertical">
+>>>>>>> 2c446fa33c182525d5765ab90b7590b0404e40d4
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,6 +34,7 @@
         android:id="@+id/linear2"
         android:orientation="horizontal" />
 
+<<<<<<< HEAD
     <LinearLayout
         android:id="@+id/Linear3"
         android:background="@color/view_bkg_color"
@@ -41,3 +46,6 @@
 
     </LinearLayout>
 </LinearLayout>
+=======
+</LinearLayout>
+>>>>>>> 2c446fa33c182525d5765ab90b7590b0404e40d4

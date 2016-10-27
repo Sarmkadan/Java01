@@ -13,9 +13,12 @@
 
     <color name="Ukrainup">#0033ff</color>
     <color name="UkrainDown">#fff200</color>
+<<<<<<< HEAD
 
     <color name="frup">#2525cf</color>
     <color name="frdown">#ff000d</color>
     <color name="frmidl">#fafafa</color>
 
+=======
+>>>>>>> 2c446fa33c182525d5765ab90b7590b0404e40d4
 </resources>
